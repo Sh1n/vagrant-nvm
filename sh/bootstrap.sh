@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-#if [ -e "/etc/vagrant-provisioned" ];
-#then
-#    echo "Vagrant provisioning already completed. Skipping..."
-#    exit 0
-#else
-#    echo "Starting Vagrant provisioning process..."
-#fi
 echo "kos-development" > /etc/hostname
 echo "127.0.0.1 kos-development" >> /etc/hosts
 hostname kos-development

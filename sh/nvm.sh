@@ -10,7 +10,5 @@ nvm alias default 0.12
 npm install -g pm2
 npm install -g bower
 
-touch /etc/vagrant-provisioned
-
 echo "--------------------------------------------------"
 echo "Your vagrant instance is running at: 192.168.33.10"
