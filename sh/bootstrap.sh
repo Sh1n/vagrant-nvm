@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-echo "kos-development" > /etc/hostname
-echo "127.0.0.1 kos-development" >> /etc/hosts
-hostname kos-development
+echo "node-development" > /etc/hostname
+echo "127.0.0.1 node-development" >> /etc/hosts
+hostname node-development
 
 # Install core components
 apt-get update
